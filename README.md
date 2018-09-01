@@ -18,8 +18,8 @@ Generate the locales for English singapore:
 
 sudo locale-gen en_SG
 sudo locale-gen en_SG.UTF-8
-May try regenerating the supported locale list by running:
 
+May try regenerating the supported locale list by running:
 sudo dpkg-reconfigure locales
 
 And update/change the current default locale:
