@@ -22,7 +22,9 @@ May try regenerating the supported locale list by running:
 sudo dpkg-reconfigure locales
 
 And update/change the current default locale:
+```
 sudo update-locale LANG=en_SG.UTF-8 
+```
 
 # 3. Change timezone
 sudo dpkg-reconfigure tzdata
